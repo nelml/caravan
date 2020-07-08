@@ -4,66 +4,38 @@
 	box-sizing: border-box;
 }
 
-.header {
-	width: 100%;
-	height: 120px;
-	background-color: #ff0000;
-
+header {
+	width: 90%;
+	padding: 15px 0;
+	margin: 0 auto;
 }
 
 .main-visual {
 	width: 100%;
 	height: 300px;
-	background-color: orange;
-
 }
 
 .main {
 	width: 840px;
 	/* height: 1400px; */
-	background-color: green;
 	margin: 0 auto;
-
-}
-
-.footer {
-	width: 100%;
-	height: 120px;
-	background-color: blue;
-
-}
-
-.header-top {
-	width: 100%;
-	height: 70px;
-	background-color: hotpink;
-
-}
-
-.header-bottom {
-	width: 100%;
-	height: 50px;
-	background-color: pink;
 
 }
 
 .main-visual-content {
 	width: 350px;
 	height: 300px;
-	background-color: gold;
 }
 
 .blog {
 	width: 600px;
 	height: 1400px;
-	background-color: limegreen;
 	float: left;
 }
 
 .sidebar {
 	width: 240px;
 	height: 1400px;
-	background-color: palegreen;
 	float: left;
 }
 
@@ -71,4 +43,10 @@
 	content: "";
 	display: block;
 	clear: both;
+}
+
+footer {
+	width: 100px;
+	height: 120px;
+	
 }
