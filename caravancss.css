@@ -10,6 +10,7 @@ a {
 }
 
 header {
+	position: relative;
 	width: 90%;
 	padding: 15px 0px;
 	margin: 15px auto;
@@ -214,4 +215,19 @@ footer {
 	border-radius: 3px;
 	line-height: 30px;
 	background-color: #acabab;
+}
+
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+
+.social i {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+header, nav, h2, .mainvisual, footer {
+	font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
