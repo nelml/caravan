@@ -231,3 +231,19 @@ footer {
 header, nav, h2, .mainvisual, footer {
 	font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
+
+/*ここからレスポンシブ対応*/
+
+@media screen and (max-width: 425px) {
+	header, .mv-con, .blog, .blog-headline, .blog-box {
+		width: 100%;
+	}
+
+	.sidebar, .blog {
+		float: none;
+	}
+
+	.nav-list-item, .social i {
+		display: block;
+	}
+}
