@@ -236,7 +236,7 @@ header, nav, h2, .mainvisual, footer {
 
 @media screen and (max-width:425px) {
 	header, .nav-list, .mv-con, main {
-		width: 100 %;
+		width: 100%;
 	}
 
 	.nav-list-item {
