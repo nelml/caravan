@@ -235,7 +235,7 @@ header, nav, h2, .mainvisual, footer {
 /*ここからレスポンシブ対応*/
 
 @media screen and (max-width:425px) {
-	header, .nav-list, .mv-con, main, {
+	header, .nav-list, .mv-con, main {
 		width: 100 %
 	}
 
